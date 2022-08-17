@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  
+ </style>
+<body>
+    
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    
+    <li><a href="null">Contact Us</a></li>
+    
+
+
+  </ul>
+
+<div class="container">
+  <div class="row">
+      <div class="col-md-4 offset-md-4 form">
+          <form action="admin_login.php" method="POST" autocomplete="off">
+                <h2 class="text-center">Admin login</h2>
+                <div class="form-group">
+                   <input class="form-control" type="text" name="username" placeholder="Enter Username" required>
+                  </div>
+                    <div class="form-group">
+                      <input class="form-control" type="password" name="password" placeholder="Enter your password" required>
+                    </div>
+                  <div class="form-group">
+                  <input class="form-control button  btn-primary " type="submit" name="submit" >
+                  </div>
+                     
+        </form>
+      </div>
+   </div>
+</div>
+
+    <!--<form action="admin_login.php" method="post">
+        <center>
+            <input type="text" name="username" placeholder="username"><br>
+            <input type="password" name="password" placeholder="password"><br>
+            <button type="submit" name="submit" >submit</button>
+        </div>    
+      -->      
+
+    </center>
+    </form><br>
+    <br>
+
+   
+</body>
+</html>
+
